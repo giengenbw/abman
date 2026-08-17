@@ -1,0 +1,26 @@
+# PDF
+*.pdf
+
+# Excel
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+~$*.xls
+~$*.xlsx
+
+# Reports
+report.*
+AB_Check_Report.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
