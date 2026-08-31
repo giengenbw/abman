@@ -1,4 +1,5 @@
-# AB- und Bestellunterlagen-Prüfer / AB 与订购资料自动检查工具
+# MAN AB- und Bestellunterlagen-Prüfer 
+# 曼恩 AB 与订购资料自动检查工具
 
 Dieses lokale Werkzeug vergleicht **Bestellunterlagen** mit einer **Auftragsbestätigung (AB)**. Es prüft unter anderem Nummern, Konfigurationscodes, Nettopreis, Fahrzeugtyp, Radstand, Leistung, Gewichte, Liefertermin, Zahlungsbedingungen und Lieferadresse. Anschließend erzeugt es Berichte im JSON-, CSV- sowie zweisprachigen HTML-Format.
 
