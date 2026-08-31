@@ -34,10 +34,10 @@ except ImportError as exc:
 
 
 CODE_STATUS_NOTES = {
-    "OK": "Code 在 Bestellunterlagen 和 AB 中均存在",
-    "ERROR": "Bestellunterlagen 中的必需 Code 未出现在 AB",
-    "IGNORED": "Bestellunterlagen 中的 Ohne Code 未出现在 AB，按规则忽略",
-    "INFO": "Code 仅在 AB 中出现；允许，但建议抽查",
+    "OK": "Der Code ist sowohl in den Bestellunterlagen als auch in der AB vorhanden.",
+    "ERROR": "Der erforderliche Code aus den Bestellunterlagen ist in der AB nicht vorhanden.",
+    "IGNORED": "Der „Ohne“-Code aus den Bestellunterlagen ist in der AB nicht vorhanden und wird gemäß der Regel ignoriert.",
+    "INFO": "Der Code ist nur in der AB vorhanden. Dies ist zulässig, eine stichprobenartige Prüfung wird jedoch empfohlen.",
 }
 
 

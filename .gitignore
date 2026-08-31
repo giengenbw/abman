@@ -24,3 +24,7 @@ env/
 
 # VS Code
 .vscode/
+
+# HTML
+*.html
+*.htm
